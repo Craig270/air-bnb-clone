@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Comforter&family=Montserrat:wght@600&display=swap");
+
+$myColor: #dd1010;
+$cursive: "Comforter";
+$airBnbFont: "Montserrat";
+
+.Test {
+  color: $myColor;
+  font-family: $airBnbFont, cursive;
+}
+
+.Navbar {
+  color: blueviolet;
+  .Navbar_title {
+    color: #ff5a5f;
+    font-family: $airBnbFont, cursive;
+    box-shadow: 1px 1px 8px 2px #000000;
+  }
+}
