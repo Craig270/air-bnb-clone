@@ -1,17 +1,60 @@
-@import url("https://fonts.googleapis.com/css2?family=Comforter&family=Montserrat:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comforter&family=Montserrat:wght@600&family=Poppins:wght@200&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
 .Test {
-  color: #dd1010;
+  color: #ff5a5f;
   font-family: "Montserrat", cursive;
 }
 
 .Navbar {
   color: blueviolet;
+  min-height: 100px;
+  font-size: 30px;
+  padding: 20px 36px;
+  -webkit-box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
 }
 
 .Navbar .Navbar_title {
   color: #ff5a5f;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   font-family: "Montserrat", cursive;
-  -webkit-box-shadow: 1px 1px 8px 2px #000000;
-          box-shadow: 1px 1px 8px 2px #000000;
+  padding: 4px;
+}
+
+section {
+  padding: 20px;
+  outline: 3px solid #ff5a5f;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+section .hero_img {
+  max-width: 600px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+section .hero_header {
+  margin-bottom: 16px;
+  font-size: 36px;
+}
+
+section .hero_text {
+  font-family: "Poppins", sans-serif;
+  color: #000;
+  margin-top: 0px;
 }
 /*# sourceMappingURL=index.css.map */
