@@ -6,7 +6,6 @@ $airBnbFont: "Montserrat";
 
 * {
   box-sizing: border-box;
-  font-family: $airBnbFont, sans-serif;
 }
 
 .Test {
@@ -38,6 +37,7 @@ section {
 
   .hero_img {
     max-width: 600px;
+    min-width: 100px;
     align-self: center;
   }
   .hero_header {
@@ -48,5 +48,29 @@ section {
     font-family: "Poppins", sans-serif;
     color: #000;
     margin-top: 0px;
+  }
+}
+
+.card {
+  max-width: 175px;
+  font-size: 12px;
+  font-family: "Poppins", sans-serif;
+  .card_img {
+    width: 100%;
+    border-radius: 9px;
+  }
+  .card_stats {
+    display: flex;
+    align-items: center;
+  }
+
+  .card_star {
+    height: 14px;
+  }
+  .gray {
+    color: #918e9b;
+  }
+  .bold {
+    font-weight: bold;
   }
 }

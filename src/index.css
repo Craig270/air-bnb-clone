@@ -2,7 +2,6 @@
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  font-family: "Montserrat", sans-serif;
 }
 
 .Test {
@@ -42,6 +41,7 @@ section {
 
 section .hero_img {
   max-width: 600px;
+  min-width: 100px;
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
@@ -56,5 +56,37 @@ section .hero_text {
   font-family: "Poppins", sans-serif;
   color: #000;
   margin-top: 0px;
+}
+
+.card {
+  max-width: 175px;
+  font-size: 12px;
+  font-family: "Poppins", sans-serif;
+}
+
+.card .card_img {
+  width: 100%;
+  border-radius: 9px;
+}
+
+.card .card_stats {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card .card_star {
+  height: 14px;
+}
+
+.card .gray {
+  color: #918e9b;
+}
+
+.card .bold {
+  font-weight: bold;
 }
 /*# sourceMappingURL=index.css.map */
