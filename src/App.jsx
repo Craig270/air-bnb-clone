@@ -7,22 +7,14 @@ import data from "./data";
 export default function App() {
   console.log(data);
   let arr = data.map((e) => {
-    return (
-      <Card
-        img={e.coverImg}
-        rating={e.stats.rating}
-        reviewCount={e.stats.reviewCount}
-        location={e.location}
-        title={e.title}
-        price={e.price}
-      />
-    );
+    return <Card key={e.id} {...e} />;
   });
+  console.log(arr);
   return (
     <div>
       <Navbar />
       <Hero />
-      {arr}
+      <section className="card-list">{arr}</section>
     </div>
   );
 }
