@@ -1,3 +1,5 @@
+import { MdLocalPharmacy } from "react-icons/md";
+
 export default [
   {
     id: 1,

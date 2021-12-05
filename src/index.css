@@ -128,4 +128,57 @@
   gap: 20px;
   overflow-x: auto;
 }
+
+.travel_title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #ff5a5f;
+  padding: 20px;
+  color: azure;
+  font-weight: 100;
+  font-size: 20px;
+}
+
+.travel_title .travel_logo {
+  margin-right: 6px;
+}
+
+.travel_card_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.travel_card_container h3 {
+  font-size: 24px;
+}
+
+.travel_card_container img {
+  border-radius: 9px;
+  max-width: 125px;
+}
+
+.travel_card_container .travel_logo {
+  color: #ff5a5f;
+  display: inline-block;
+}
+
+.travel_card_container .travel_info {
+  margin: 20px 10px;
+}
+
+.travel_card_container .google_link {
+  margin-left: 15px;
+}
+
+.travel_card_container .travel_dates {
+  font-weight: 800;
+}
 /*# sourceMappingURL=index.css.map */

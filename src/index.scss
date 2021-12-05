@@ -95,3 +95,45 @@ $airBnbFont: "Montserrat";
   gap: 20px;
   overflow-x: auto;
 }
+
+/////Travel Info below:
+
+.travel_title {
+  display: flex;
+  justify-content: center;
+  background-color: $myColor;
+  padding: 20px;
+  color: azure;
+  font-weight: 100;
+  font-size: 20px;
+  .travel_logo {
+    margin-right: 6px;
+  }
+}
+
+.travel_card_container {
+  display: flex;
+  max-width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  h3 {
+    font-size: 24px;
+  }
+  img {
+    border-radius: 9px;
+    max-width: 125px;
+  }
+  .travel_logo {
+    color: $myColor;
+    display: inline-block;
+  }
+  .travel_info {
+    margin: 20px 10px;
+  }
+  .google_link {
+    margin-left: 15px;
+  }
+  .travel_dates {
+    font-weight: 800;
+  }
+}
